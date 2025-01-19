@@ -1,0 +1,27 @@
+.header {
+  max-width: 100vh;
+  height: 108px;
+  background: var(--white);
+
+  display: flex;
+  align-items: center;
+}
+
+.headerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 12px;
+}
+
+.button {
+  width: 158px;
+  height: 32px;
+  border-radius: 32px;
+  background: linear-gradient(to right, var(--orange-light), var(--orange));
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--white);
+  box-shadow: 0 6px 10px rgba(250, 100, 30, 0.7);
+}
