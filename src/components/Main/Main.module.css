@@ -1,0 +1,32 @@
+.main {
+  max-width: 100vh;
+  height: 1015px;
+  background: linear-gradient(to top, var(--orange-light), var(--orange));
+  color: var(--white);
+}
+
+.mainTitleAndImage {
+  margin: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vh;
+  position: relative;
+}
+
+.mainTitleAndImage h1 {
+  margin-top: 32px;
+  font-size: 40px;
+  width: 290px;
+}
+
+.mainTitleAndImage img {
+  margin-top: 32px;
+  position: absolute;
+  right: -100px;
+}
+
+p {
+  margin-top: 20px;
+  margin: 0 12px;
+}
